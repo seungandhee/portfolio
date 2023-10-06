@@ -343,7 +343,7 @@
 
     .pf-detail {
       left: 5vw;
-      bottom: 12vh;
+      bottom: 5vh;
 
       .detail-hover-btn {
 
@@ -367,16 +367,6 @@
           }
         }
       }
-    }
-  }
-}
-
-@media (max-width: 375px) {
-
-  .pf-section {
-
-    .pf-detail {
-      bottom: 5vh;
     }
   }
 }
