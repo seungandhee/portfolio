@@ -5,7 +5,7 @@ $('#fullpage').fullpage({
   scrollingSpeed: 1000,
   touchSensitivity: 20,
   anchors: ['', 'PROJECT1 : ALTOOLS', 'PROJECT2 : CASAMIA', 'PROJECT3 : DAELIMBATH', 'PROJECT4 : KTEXTILE', 'PROJECT5 : CLASS101+'],
-  sectionsColor: ['#eee', '#eee', '#eee', '#eee', '#eee', '#eee'],
+  sectionsColor: ['#f2e9de', '#eee', '#eee', '#eee', '#eee', '#eee'],
   afterLoad: function(anchor){
     $('.content-name').text(anchor);
   }

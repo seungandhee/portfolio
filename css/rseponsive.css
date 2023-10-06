@@ -35,6 +35,10 @@
   .content-name {
     display: none;
   }
+  .section1 .content video {
+    -o-object-position: 25%;
+       object-position: 25%;
+  }
   .pf-section .mockup {
     background-size: 159vw;
     background-position: 53% -47.5vw;
@@ -60,6 +64,9 @@
     justify-content: center;
   }
   .footer-box .left {
+    display: none;
+  }
+  .section1 video {
     display: none;
   }
 }
@@ -155,6 +162,17 @@
   }
 }
 @media (max-width: 550px) {
+  .section1 .content .txt {
+    position: static;
+    margin: 20vh auto 0;
+  }
+  .section1 .content .txt h2 {
+    font-size: 7vw;
+    margin-bottom: 4vw;
+  }
+  .section1 .content .txt p {
+    font-size: 3.2vw;
+  }
   .pf-section .pf-detail .detail-hover-btn {
     font-size: 0;
     border: none;
@@ -198,7 +216,7 @@
   }
   .pf-section .pf-detail {
     left: 5vw;
-    bottom: 5vh;
+    bottom: 20vh;
   }
   .pf-section .pf-detail .detail-hover-btn .detail-txt {
     width: 87vw;
@@ -211,5 +229,10 @@
   }
   .pf-section .pf-detail .detail-hover-btn .detail-txt ul li span {
     width: 66px;
+  }
+}
+@media (max-width: 380px) {
+  .pf-section .pf-detail {
+    bottom: 5vh;
   }
 }/*# sourceMappingURL=rseponsive.css.map */

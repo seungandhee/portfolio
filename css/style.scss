@@ -293,8 +293,10 @@ body {
 
     .txt {
       position: absolute;
-      right: 13.8vw;
-      top: 22vh;
+      right: 12.5vw;
+      top: 20vh;
+      width: max-content;
+      padding: 20px;
 
       h2 {
         font-size: 35px;

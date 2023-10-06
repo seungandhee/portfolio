@@ -230,8 +230,11 @@ body {
 }
 .section1 .content .txt {
   position: absolute;
-  right: 13.8vw;
-  top: 22vh;
+  right: 12.5vw;
+  top: 20vh;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 20px;
 }
 .section1 .content .txt h2 {
   font-size: 35px;
