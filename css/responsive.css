@@ -1,0 +1,233 @@
+@media (max-width: 1750px) {
+  .pf-section .mockup {
+    background-size: 116vw;
+    background-position: 53% -35.5vw;
+  }
+  .pf-section video {
+    left: 23.5vw;
+    top: 5.2vw;
+    width: 51.75vw;
+  }
+}
+@media (max-width: 1600px) {
+  .pf-section .mockup {
+    background-size: 125vw;
+    background-position: 53% -38.5vw;
+  }
+  .pf-section video {
+    left: 21.2vw;
+    top: 5.42vw;
+    width: 55.8vw;
+  }
+}
+@media (max-width: 1440px) {
+  .pf-section .mockup {
+    background-size: 141vw;
+    background-position: 53% -42.5vw;
+  }
+  .pf-section video {
+    left: 17.1vw;
+    top: 7.1vw;
+    width: 63vw;
+  }
+}
+@media (max-width: 1250px) {
+  .content-name {
+    display: none;
+  }
+  .section1 .content video {
+    -o-object-position: 25%;
+       object-position: 25%;
+  }
+  .pf-section .mockup {
+    background-size: 159vw;
+    background-position: 53% -47.5vw;
+  }
+  .pf-section video {
+    left: 12.6vw;
+    top: 8.4vw;
+    width: 70.8vw;
+  }
+  .pf-section .pf-detail {
+    bottom: 110px;
+    flex-direction: column;
+  }
+  .pf-section .pf-detail .detail-hover-btn {
+    margin-bottom: 6px;
+  }
+  .pf-section .pf-detail .detail-hover-btn .detail-txt {
+    bottom: 94px;
+  }
+}
+@media (max-width: 1100px) {
+  .footer-box {
+    justify-content: center;
+  }
+  .footer-box .left {
+    display: none;
+  }
+  .section1 video {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .pf-section .mockup {
+    background-size: 176vw;
+    background-position: 53% -46.5vw;
+  }
+  .pf-section video {
+    left: 8.4vw;
+    top: 15.4vw;
+    width: 78.2vw;
+  }
+}
+@media (max-width: 950px) {
+  #fp-nav {
+    left: 25px;
+    bottom: 60px;
+    width: calc(100% - 50px);
+  }
+  #fp-nav ul {
+    justify-content: center;
+    height: 100px;
+    border: none;
+    border-top: 1px solid #fff;
+    border-radius: 0 0 30px 30px;
+  }
+  #fp-nav ul li {
+    margin: 0 1vw;
+  }
+  #fp-nav ul li a span {
+    width: 65px;
+    height: 65px;
+  }
+  .pf-section .pf-detail {
+    left: 22px;
+    bottom: 204px;
+  }
+  .pf-section .pf-detail .detail-hover-btn {
+    margin-bottom: 6px;
+  }
+  .pf-section .pf-detail .detail-hover-btn .detail-txt {
+    bottom: 94px;
+  }
+}
+@media (max-width: 830px) {
+  .container {
+    height: calc(100vh - 6vw);
+    margin: 3vw;
+  }
+  #fp-nav {
+    left: 3vw;
+    bottom: 3vw;
+    width: calc(100% - 6vw);
+  }
+  #fp-nav ul {
+    height: 90px;
+  }
+  #fp-nav ul li a span {
+    width: 55px;
+    height: 55px;
+  }
+  .footer-box {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .content-name {
+    display: block;
+    bottom: 44px;
+  }
+  #fp-nav {
+    display: none;
+  }
+  .pf-section .mockup {
+    background-position: 53% -32.5vw;
+  }
+  .pf-section video {
+    top: 29.5vw;
+    border-radius: 2vw;
+  }
+  .pf-section .pf-detail {
+    bottom: 135px;
+  }
+}
+@media (max-width: 670px) {
+  .content-name {
+    left: 42px;
+    font-size: 7vw;
+  }
+  .pf-section .pf-detail {
+    bottom: 24vw;
+  }
+}
+@media (max-width: 550px) {
+  .section1 .content .txt {
+    position: static;
+    margin: 20vh auto 0;
+  }
+  .section1 .content .txt h2 {
+    font-size: 7vw;
+    margin-bottom: 4vw;
+  }
+  .section1 .content .txt p {
+    font-size: 3.2vw;
+  }
+  .pf-section .pf-detail .detail-hover-btn {
+    font-size: 0;
+    border: none;
+    cursor: auto;
+  }
+  .pf-section .pf-detail .detail-hover-btn:before {
+    display: none;
+  }
+  .pf-section .pf-detail .detail-hover-btn:hover {
+    border: none;
+    background: none;
+    box-shadow: none;
+  }
+  .pf-section .pf-detail .detail-hover-btn .detail-txt {
+    bottom: 53px;
+    visibility: visible;
+    width: 85vw;
+    font-size: 13px;
+  }
+}
+@media (max-width: 490px) {
+  .container {
+    height: calc(100vh - 3vw);
+    margin: 1.5vw;
+    border-radius: 4vw;
+  }
+  .right-icon {
+    right: 6vw;
+    top: 3.5vh;
+  }
+  .content-name {
+    display: none;
+  }
+  .pf-section .mockup {
+    background-size: 198vw;
+    background-position: -50.5vw -40.5vw;
+  }
+  .pf-section video {
+    left: 4.4vw;
+    width: 88.2vw;
+  }
+  .pf-section .pf-detail {
+    left: 5vw;
+    bottom: 5vh;
+  }
+  .pf-section .pf-detail .detail-hover-btn .detail-txt {
+    width: 87vw;
+    bottom: 56px;
+    padding: 0;
+    font-size: 3vw;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+  }
+  .pf-section .pf-detail .detail-hover-btn .detail-txt ul li span {
+    width: 66px;
+  }
+}/*# sourceMappingURL=responsive.css.map */
