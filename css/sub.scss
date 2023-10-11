@@ -116,10 +116,6 @@ body {
           font-size: 26px;
           color: #fff;
         }
-
-        p {
-
-        }
       }
     }
   }
@@ -168,9 +164,11 @@ body {
       }
 
       .desc {
+        padding-left: 23px;
 
         li {
           list-style: inside;
+          text-indent: -23px;
         }
       }
 

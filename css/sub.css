@@ -125,8 +125,12 @@ body::-webkit-scrollbar-thumb {
   margin-left: 10px;
   color: #cbcbcb;
 }
+.skills-wrap .tech .stack .desc {
+  padding-left: 23px;
+}
 .skills-wrap .tech .stack .desc li {
   list-style: inside;
+  text-indent: -23px;
 }
 .skills-wrap .tech .stack .program {
   position: absolute;

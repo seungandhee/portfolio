@@ -32,6 +32,17 @@
       width: 55.8vw;
     }
   }
+
+  // #### SKILL ####
+  .skills-wrap {
+
+    .tech {
+
+      .inner {
+        padding: 0 20px;
+      }
+    }
+  }
 }
 
 @media (max-width: 1440px) {
@@ -90,6 +101,33 @@
 
         .detail-txt {
           bottom: 94px;
+        }
+      }
+    }
+  }
+
+  // #### SKILL ####
+  .skills-wrap {
+
+    .tech {
+
+      .tech-wrap {
+        flex-direction: column;
+      }
+
+      .design {
+        margin-right: 0;
+      }
+
+      .stack {
+        height: auto;
+
+        .desc {
+          margin-bottom: 25px;
+        }
+
+        .program {
+          position: static;
         }
       }
     }
@@ -242,6 +280,56 @@
       bottom: 135px;
     }
   }
+
+  // #### SKILL ####
+  .home {
+    margin: 30px 20px;
+  }
+  .skills-wrap {
+
+    .intro {
+
+      .txt {
+
+        h2 {
+          font-size: 9vw;
+        }
+      }
+    }
+
+    .keyword {
+
+      .word-wrap {
+
+        .set {
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 10px 20px;
+        }
+      }
+    }
+  }
+
+  // #### CONTACT ####
+  .contact-wrap {
+
+    .contact-txt {
+
+      h3 {
+        font-size: 3.5vw;
+        margin-bottom: 1vw;
+      }
+
+      a {
+        font-size: 6vw;
+      }
+
+      p {
+        font-size: 2.8vw;
+        margin-top: 1.5vw;
+      }
+    }
+  }
 }
 
 @media (max-width: 670px) {
@@ -276,7 +364,7 @@
         }
 
         p {
-          font-size: 3.2vw;
+          font-size: 3vw;
         }
       }
     }
@@ -365,6 +453,57 @@
               }
             }
           }
+        }
+      }
+    }
+  }
+
+  // #### SKILL ####
+  .skills-wrap {
+    
+    .intro, .keyword, .tech {
+      padding: 15vw 0;
+    }
+
+    .intro {
+
+      .txt {
+
+        p { 
+          font-size: 3.3vw;
+        }
+      }
+    }
+
+    .keyword {
+
+      .word-wrap {
+
+        .set {
+          
+          p {
+            font-size: 3.6vw;
+          }
+        }
+      }
+    }
+
+    .tech {
+
+      h2 {
+        font-size: 9vw;
+      }
+      
+      .stack {
+        padding: 5.5vw 6vw 9vw;
+
+        h3 {
+          font-size: 6vw;
+          margin-bottom: 5vw;
+        }
+
+        .desc {
+          font-size: 4vw;
         }
       }
     }
